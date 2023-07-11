@@ -20,9 +20,6 @@ export default function Login() {
         <div className="wrap-login">
           <form className="login-form">
             <span className="login-form-title">Bem Vindo!</span>
-            <span className="login-form-title">
-              <img src={logo} alt="Logo login" />
-            </span>
 
             <div className='wrap-input'>
               <input className={email !== '' ? 'has-value input' : 'input'} type='email' onChange={(event) => handleEmailChange(event)} />

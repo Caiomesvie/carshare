@@ -7,7 +7,7 @@ export default function Home(){
     <div>
       <HeaderNav></HeaderNav>
       <div className="home">
-        <div className="navbar">+
+        <div className="navbar">
           <div className="input-filters">
             <fieldset>Tipo</fieldset>
             <input type="text"/>
