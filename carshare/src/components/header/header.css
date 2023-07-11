@@ -1,0 +1,19 @@
+.headerNav{
+  padding: 10px 30px;
+  background-color: #2E2E2E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+}
+.menu button{
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+}
